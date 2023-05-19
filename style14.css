@@ -33,3 +33,24 @@ ul > li{
     background-color: aqua;
     list-style: none;
 }
+
+li:nth-child(1){
+    align-self: flex-end;
+    order: 1;
+}
+li:nth-child(21){
+    align-self: flex-start;
+    order: 2;
+}
+li:nth-child(3){
+    align-self: stretch;
+    order: 3;
+}
+li:nth-child(4){
+    align-self: center;
+    order: 4;
+}
+li:nth-child(5){
+    align-self: baseline;
+    order: 5;
+}
